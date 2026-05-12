@@ -9,10 +9,10 @@ import (
 )
 
 var HostOverrideOpts = api.ReqOpts{
-	AddEndpoint:         "/unbound/settings/addHostOverride",
-	GetEndpoint:         "/unbound/settings/getHostOverride",
-	UpdateEndpoint:      "/unbound/settings/setHostOverride",
-	DeleteEndpoint:      "/unbound/settings/delHostOverride",
+	AddEndpoint:         "/unbound/settings/add_host_override",
+	GetEndpoint:         "/unbound/settings/get_host_override",
+	UpdateEndpoint:      "/unbound/settings/set_host_override",
+	DeleteEndpoint:      "/unbound/settings/del_host_override",
 	ReconfigureEndpoint: unboundReconfigureEndpoint,
 	Monad:               "host",
 }

@@ -6,10 +6,10 @@ resources:
     filename: domain_override
     monad: domain
     endpoints:
-      add: "/unbound/settings/addDomainOverride"
-      get: "/unbound/settings/getDomainOverride"
-      update: "/unbound/settings/setDomainOverride"
-      delete: "/unbound/settings/delDomainOverride"
+      add: "/unbound/settings/add_domain_override"
+      get: "/unbound/settings/get_domain_override"
+      update: "/unbound/settings/set_domain_override"
+      delete: "/unbound/settings/del_domain_override"
     attrs:
       - name: Enabled
         type: string
@@ -28,10 +28,10 @@ resources:
     filename: host_override
     monad: host
     endpoints:
-      add: "/unbound/settings/addHostOverride"
-      get: "/unbound/settings/getHostOverride"
-      update: "/unbound/settings/setHostOverride"
-      delete: "/unbound/settings/delHostOverride"
+      add: "/unbound/settings/add_host_override"
+      get: "/unbound/settings/get_host_override"
+      update: "/unbound/settings/set_host_override"
+      delete: "/unbound/settings/del_host_override"
     attrs:
       - name: Enabled
         type: string
@@ -62,10 +62,10 @@ resources:
     filename: host_alias
     monad: alias
     endpoints:
-      add: "/unbound/settings/addHostAlias"
-      get: "/unbound/settings/getHostAlias"
-      update: "/unbound/settings/setHostAlias"
-      delete: "/unbound/settings/delHostAlias"
+      add: "/unbound/settings/add_host_alias"
+      get: "/unbound/settings/get_host_alias"
+      update: "/unbound/settings/set_host_alias"
+      delete: "/unbound/settings/del_host_alias"
     attrs:
       - name: Enabled
         type: string
@@ -87,10 +87,10 @@ resources:
     filename: forward
     monad: dot
     endpoints:
-      add: "/unbound/settings/addDot"
-      get: "/unbound/settings/getDot"
-      update: "/unbound/settings/setDot"
-      delete: "/unbound/settings/delDot"
+      add: "/unbound/settings/add_dot"
+      get: "/unbound/settings/get_dot"
+      update: "/unbound/settings/set_dot"
+      delete: "/unbound/settings/del_dot"
     attrs:
       - name: Enabled
         type: string

@@ -9,10 +9,10 @@ import (
 )
 
 var HostAliasOpts = api.ReqOpts{
-	AddEndpoint:         "/unbound/settings/addHostAlias",
-	GetEndpoint:         "/unbound/settings/getHostAlias",
-	UpdateEndpoint:      "/unbound/settings/setHostAlias",
-	DeleteEndpoint:      "/unbound/settings/delHostAlias",
+	AddEndpoint:         "/unbound/settings/add_host_alias",
+	GetEndpoint:         "/unbound/settings/get_host_alias",
+	UpdateEndpoint:      "/unbound/settings/set_host_alias",
+	DeleteEndpoint:      "/unbound/settings/del_host_alias",
 	ReconfigureEndpoint: unboundReconfigureEndpoint,
 	Monad:               "alias",
 }

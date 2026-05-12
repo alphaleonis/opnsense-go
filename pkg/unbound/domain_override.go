@@ -9,10 +9,10 @@ import (
 )
 
 var DomainOverrideOpts = api.ReqOpts{
-	AddEndpoint:         "/unbound/settings/addDomainOverride",
-	GetEndpoint:         "/unbound/settings/getDomainOverride",
-	UpdateEndpoint:      "/unbound/settings/setDomainOverride",
-	DeleteEndpoint:      "/unbound/settings/delDomainOverride",
+	AddEndpoint:         "/unbound/settings/add_domain_override",
+	GetEndpoint:         "/unbound/settings/get_domain_override",
+	UpdateEndpoint:      "/unbound/settings/set_domain_override",
+	DeleteEndpoint:      "/unbound/settings/del_domain_override",
 	ReconfigureEndpoint: unboundReconfigureEndpoint,
 	Monad:               "domain",
 }

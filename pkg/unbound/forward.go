@@ -9,10 +9,10 @@ import (
 )
 
 var ForwardOpts = api.ReqOpts{
-	AddEndpoint:         "/unbound/settings/addDot",
-	GetEndpoint:         "/unbound/settings/getDot",
-	UpdateEndpoint:      "/unbound/settings/setDot",
-	DeleteEndpoint:      "/unbound/settings/delDot",
+	AddEndpoint:         "/unbound/settings/add_dot",
+	GetEndpoint:         "/unbound/settings/get_dot",
+	UpdateEndpoint:      "/unbound/settings/set_dot",
+	DeleteEndpoint:      "/unbound/settings/del_dot",
 	ReconfigureEndpoint: unboundReconfigureEndpoint,
 	Monad:               "dot",
 }
